@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Este é o front-end público do website! Abaixo você vai encontrar as instruções de como executá-lo.
 
-## Getting Started
+## Considerações
+Caso você não tenha o npm instalado, considere isto antes de continuar:  
+- O NVM é uma ferramenta usada para instalar diferentes versões no Node.js, e do NPM. Já o NPM, é uma ferramenta que ajuda a baixar packages:  <br>
+- Pense num programa como um quebra-cabeça 🧩; cada peça é uma instrução do programa; e um package, é como se fosse uma parte já montada deste quebra-cabeça 🖼️, que vamos aproveitar.  <br>
+    - Packages então são programas, que tem uma função genérica, e que podem ser reaproveitados em outros programas, e por várias pessoas, evitando retrabalho.
 
-First, run the development server:
+### 2. Instalação do NVM
+Este tutorial pode ajudar: [artigo](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/)
+> Observação: embora o artigo mostre os comandos a se usar no passo a passo para Linux, eles estão apontando para versões mais antigas, por isso, use-o como base enquanto acompanha o passo da documentação oficial:
+>   - [Documentação do NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Passos para execução do dashboard
+1. Abra o terminal, e acesse a pasta do projeto (smm-solutions-website);
+2. Excute o comando `nvm install node`
+3. Execute o comando `npm install`;
+4. Execute o comando `npm run dev`;
+5. Agora, acesse o site em [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Sobre as tecnologias usadas no projeto
 
-## Learn More
+**Next.js**
+> [Documentação do Next.js](https://nextjs.org/docs)  
+>  [Tutorial interativo de Next.js](https://nextjs.org/learn)
 
-To learn more about Next.js, take a look at the following resources:
+**React**
+> [Documentação do React](https://react.dev/learn)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**JavaScript**
+> [Guia de JavaScript](https://www.freecodecamp.org/portuguese/news/o-manual-de-javascript-para-iniciantes/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Jest**
+> [Tutorial de Jest](https://www.freecodecamp.org/news/how-to-test-javascript-code-with-jest/)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Tailwind**
+> [Guia de Tailwind](https://www.freecodecamp.org/portuguese/news/o-que-e-tailwind-css-um-guia-para-iniciantes/)
