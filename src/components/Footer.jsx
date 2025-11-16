@@ -49,8 +49,8 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4">Contato</h4>
             <ul className="space-y-2 text-sm text-gray-300">
-              <li>📞 (XX) XXXXX-XXXX</li>
-              <li>📧 contato@smmsolution.com.br</li>
+              <li>📞 (19) 99922-7628</li>
+              <li>📧 smmsolutionsp@gmail.com</li>
               <li>📍 Rua Francisco Chiaffitelli 184, Bairro Jardim Leonor, Campinas, SP - 13041-265 </li>
             </ul>
           </div>
@@ -58,7 +58,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            © 2025 SMM Solution. Todos os direitos reservados.
+            © 2025 SMM Solutions. Todos os direitos reservados.
           </p>
         </div>
       </div>

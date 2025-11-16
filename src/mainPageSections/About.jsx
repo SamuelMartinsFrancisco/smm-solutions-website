@@ -6,9 +6,9 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold mb-6">Sobre a SMM Solution</h2>
+            <h2 className="text-4xl font-bold mb-6">Sobre a SMM Solutions</h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">
-              Com 8 anos de experiência no mercado, a SMM Solution é especializada em automação de sistemas elétricos, projetos elétricos, montagem de máquinas e fornecimento de mão de obra altamente qualificada para a indústria e o comércio.
+              Com 8 anos de experiência no mercado, a SMM Solutions é especializada em automação de sistemas elétricos, projetos elétricos, montagem de máquinas e fornecimento de mão de obra altamente qualificada para a indústria e o comércio.
             </p>
             <p className="text-lg text-gray-700 mb-6 leading-relaxed">
               Nosso compromisso é oferecer soluções completas e personalizadas, sempre com foco em eficiência, inovação e custo-benefício.
@@ -30,7 +30,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="bg-blue-50 rounded-lg p-8">
+          <div className="bg-[#0090FF]/15 rounded-lg p-8">
             <h3 className="text-2xl font-bold mb-6">Por que nos escolher?</h3>
             <ul className="space-y-4">
               <li className="flex gap-3">

@@ -87,9 +87,6 @@ export default function Header() {
               <Link href="#contato" className="text-gray-700 hover:text-blue-600 font-medium">
                 Contato
               </Link>
-              <button className="btn btn-primary w-full">
-                Solicitar Orçamento
-              </button>
             </div>
           </div>
         )}

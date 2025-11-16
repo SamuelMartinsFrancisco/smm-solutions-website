@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[200px] lg:min-h-[400px] flex items-center">
       {/* Background Image */}
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 border-b-5 border-[#0090FF]">
         <Image
           src="/assets/img/smm-background.jpg"
           fill
@@ -13,7 +13,7 @@ export default function Hero() {
           alt="Industrial background"
         />
         {/* Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-blue-800/80"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0A0A]/90 to-sky-950/80"></div>
       </div>
 
       {/* Content */}

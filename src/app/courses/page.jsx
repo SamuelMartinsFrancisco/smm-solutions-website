@@ -22,7 +22,7 @@ export default function Courses () {
 
   return (
     <div className='w-full min-h-full flex flex-col'>
-      <div className='flex items-center gap-2 text-white bg-linear-to-r from-black to-sky-900 w-full p-4 border-t-5 border-white border-dashed'>
+      <div className='flex items-center gap-2 text-white bg-linear-to-r from-black to-sky-900 w-full p-4 border-t-5 border-[#0090FF]'>
         <Cpu />
         <h1 className='text-2xl font-bold'>Cursos</h1>
       </div>
